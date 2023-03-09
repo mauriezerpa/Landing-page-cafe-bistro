@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&family=Poppins&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgb(122,78,54);
+    background: linear-gradient(45deg, rgba(122,78,54,1) 0%, rgba(196,177,143,1) 38%, rgba(237,236,227,1) 75%);
+    background-attachment: fixed;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-logo {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
