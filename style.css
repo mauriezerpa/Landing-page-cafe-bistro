@@ -71,3 +71,16 @@ a:hover, a:active {
     display: block;
     
 }
+
+.conteudo1-texto {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conteudo1-titulo {
+    font-family: 'Mrs Saint Delafield', 'cursive'; 
+    font-weight: 400;
+    font-size: 90px;
+    color: #4F2B1D;
+}
