@@ -84,3 +84,9 @@ a:hover, a:active {
     font-size: 90px;
     color: #4F2B1D;
 }
+
+.conteudo1-paragrafo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
