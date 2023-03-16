@@ -76,10 +76,12 @@ a:hover, a:active {
 .conteudo1-texto {
     display: flex;
     flex-direction: column;
-
 }
 
 .conteudo1-titulo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
     font-family: 'Mrs Saint Delafield', 'cursive'; 
     font-weight: 400;
     font-size: 90px;
@@ -93,15 +95,22 @@ a:hover, a:active {
 }
 
 .conteudo2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
     margin-top: 50px;
+    padding: 10px;
 }
 
 .conteudo2-texto {
    display: flex;
    flex-direction: column;
    gap: 32px;
+}
+
+.conteudo2-titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Mrs Saint Delafield', 'cursive'; 
+    font-weight: 400;
+    font-size: 90px;
+    color: #4F2B1D;
 }
