@@ -94,12 +94,12 @@ a:hover, a:active {
     font-size: 18px;
 }
 
-.conteudo2 {
+.conteudo2, .conteudo3 {
     margin-top: 50px;
     padding: 10px;
 }
 
-.conteudo2-texto {
+.conteudo2-texto , .conteudo3-texto {
    display: flex;
    flex-direction: column;
    gap: 32px;
@@ -119,4 +119,14 @@ a:hover, a:active {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 18px;
+}
+
+.conteudo3-titulo {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-family: 'Mrs Saint Delafield', 'cursive'; 
+    font-weight: 400;
+    font-size: 90px;
+    color: #4F2B1D;
 }
