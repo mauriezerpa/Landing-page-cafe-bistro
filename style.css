@@ -130,3 +130,9 @@ a:hover, a:active {
     font-size: 90px;
     color: #4F2B1D;
 }
+
+.conteudo-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
